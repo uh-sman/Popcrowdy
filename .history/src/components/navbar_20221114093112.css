@@ -1,0 +1,41 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 60px;
+}
+.btn {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px 10px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .nav-list {
+    flex-direction: column;
+    display: none;
+  }
+}
+.sidebar {
+  background: gray;
+  position: absolute;
+  top: 0px;
+  line-height: 70px;
+  right: 0;
+  left: 700px;
+  z-index: 100;
+  width: 30%;
+}
+.close-menu {
+  font-weight: 900;
+  position: absolute;
+  right: 20px;
+  top: 10pz;
+}
+/* .sidebar-list {
+  margin-top: 50px;
+} */

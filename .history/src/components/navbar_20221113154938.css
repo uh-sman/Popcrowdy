@@ -1,0 +1,15 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 60px;
+}
+.btn {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px 10px;
+  font-weight: 500;
+}

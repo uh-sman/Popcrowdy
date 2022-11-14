@@ -1,0 +1,16 @@
+.hero-container {
+  margin-left: 73px;
+}
+.sub-card {
+  display: flex;
+  gap: 16px;
+}
+.flexed-card {
+  display: flex;
+  gap: 62px;
+}
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .flexed-card {
+    flex-direction: column;
+  }
+}

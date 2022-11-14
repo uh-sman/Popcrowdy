@@ -1,0 +1,26 @@
+.card {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 419px;
+  /* height: 623px; */
+  left: 963px;
+  top: 267px;
+  background: linear-gradient(
+    180deg,
+    #fffafa 0%,
+    rgba(255, 255, 255, 0.994792) 0.01%,
+    rgba(237, 224, 224, 0) 100%
+  );
+  border-radius: 20px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 27.45px;
+  /* justify-content: center; */
+}
+.list {
+  margin-bottom: 10px;
+}

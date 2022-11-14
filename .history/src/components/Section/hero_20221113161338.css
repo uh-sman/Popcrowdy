@@ -1,0 +1,11 @@
+.hero-container {
+  margin-left: 73px;
+}
+.sub-card {
+  display: flex;
+  gap: 16px;
+}
+.flexed-card {
+  display: flex;
+  gap: 62px;
+}

@@ -1,0 +1,54 @@
+.button {
+  padding: 8px 25px;
+  background-color: red;
+  color: white;
+  border-radius: 47px;
+  border: none;
+}
+.texts {
+  margin-left: 21px;
+}
+.box {
+  margin-top: 24px;
+  /* margin-left: 25px; */
+}
+.box2 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  position: absolute;
+  position: absolute;
+  width: 88px;
+  height: 99px;
+  left: 900px;
+  top: 900px;
+}
+.box3 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  position: absolute;
+  position: absolute;
+  width: 88px;
+  height: 99px;
+  left: 900px;
+  top: 900px;
+}
+.box1 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  position: absolute;
+  position: absolute;
+  width: 88px;
+  height: 99px;
+  left: 840px;
+  top: 840px;
+}
+.box4 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  position: absolute;
+  position: absolute;
+  width: 88px;
+  height: 99px;
+  left: 840px;
+  top: 840px;
+}

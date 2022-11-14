@@ -1,0 +1,15 @@
+.card {
+  /* position: absolute; */
+  width: 419px;
+  height: 623px;
+  left: 963px;
+  top: 267px;
+
+  background: linear-gradient(
+    180deg,
+    #fffafa 0%,
+    rgba(255, 255, 255, 0.994792) 0.01%,
+    rgba(237, 224, 224, 0) 100%
+  );
+  border-radius: 20px;
+}

@@ -1,0 +1,13 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 60px;
+}
+.btn {
+  background: white;
+  border: 1px solid black;
+}

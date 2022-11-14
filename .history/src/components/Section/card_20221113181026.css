@@ -1,0 +1,166 @@
+.card {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 419px;
+  /* height: 623px; */
+  padding: 0px 0px;
+  /* left: 963px; */
+  top: 267px;
+  background: linear-gradient(
+    180deg,
+    #fffafa 0%,
+    rgba(255, 255, 255, 0.994792) 0.01%,
+    rgba(237, 224, 224, 0) 100%
+  );
+  border-radius: 20px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 27.45px;
+  /* justify-content: center; */
+}
+.list {
+  margin-bottom: 10px;
+}
+.rightBodybtn {
+  width: 419px;
+  height: 53px;
+  font-size: 20px;
+  background: #ff0000;
+  color: #ffffff;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  font-weight: bold;
+  border-color: #ff0000;
+}
+
+.rightBodyHead {
+  display: flex;
+}
+
+.rightBodyHead-cont {
+  padding: 40px 0px 0px 40px;
+}
+
+.raised {
+  padding: 10px 0px 0px 15px;
+}
+
+.goal-subcont {
+  display: flex;
+  padding-top: 10px;
+}
+
+.goal {
+  padding-right: 20px;
+}
+
+.goalamt {
+  padding-top: 5px;
+}
+
+.oo {
+  background: #fffafa;
+}
+
+.sponsor-subcont {
+  display: flex;
+}
+
+.spons-cover {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0px 0px 15px 25px;
+}
+
+.sponsor-cont {
+  padding: 20px 0px 0px 40px;
+}
+
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 330px;
+}
+
+.month {
+  padding: 30px 0px 0px 120px;
+  font-weight: 600;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.sponsoramt {
+  font-size: 23px;
+}
+
+.sponsor {
+  font-size: 15px;
+}
+
+.seeMore a {
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 14px;
+}
+
+/* .seeMore-cont { */
+.rightBodybtn {
+    width: 419px;
+    height: 53px;
+    font-size: 20px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    font-weight: bold;
+    border-color: #FF0000;
+}
+
+.rightBodyHead {
+    display: flex;
+}
+
+.rightBodyHead-cont {
+    padding: 40px 0px 0px 40px;
+}
+
+.raised {
+    padding: 10px 0px 0px 15px;
+}
+
+.goal-subcont {
+    display: flex;
+    padding-top: 10px;
+}
+
+.goal {
+    padding-right: 20px;
+}
+
+.goalamt {
+    padding-top: 5px;
+}
+
+.oo {
+    background: #FFFAFA;
+}
+
+.sponsor-subcont {
+    display: flex;
+}
+
+.spons-cover {
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0px 0px 15px 25px;
+}
+
+.sponsor-cont {
+    padding: 20px 0px 0px 40px;
+}
+
+.line {
+    border-bottom: 1px soli…

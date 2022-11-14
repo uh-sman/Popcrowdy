@@ -1,0 +1,5 @@
+.scrollContainer {
+  display: flex;
+  overflow-x: scroll;
+  gap: 55px;
+}
