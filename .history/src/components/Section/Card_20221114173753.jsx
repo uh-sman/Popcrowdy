@@ -28,6 +28,7 @@ const Card = () => {
                   <div className="card-items">
                     <div>
                       <BsPersonCircle className="image-style" />
+                      {/* <img src={link} /> */}
                     </div>
                     <div className="">
                       <h4>{title}</h4>

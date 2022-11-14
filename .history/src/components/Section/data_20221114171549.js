@@ -5,7 +5,7 @@ export const data = [
     id: "raise",
     subtext: "Raised",
     goal: "100,000,000",
-    image: img,
+    // image: img,
   },
 
   {

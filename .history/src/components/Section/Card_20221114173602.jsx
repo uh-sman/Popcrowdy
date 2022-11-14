@@ -28,8 +28,9 @@ const Card = () => {
                   <div className="card-items">
                     <div>
                       <BsPersonCircle className="image-style" />
+                      {/* <img src={link} /> */}
                     </div>
-                    <div className="">
+                    <div className="button-class">
                       <h4>{title}</h4>
                       <h3 className="border">
                         {amount} <span className="date">{date}</span>
@@ -44,7 +45,7 @@ const Card = () => {
             <TfiArrowCircleRight />
             <span style={{ marginLeft: "21.05px" }}>See More</span>
           </p>
-          <div className="button-class">
+          <div>
             <button className="card-buttons1">Invest Now </button>
             <button className="card-buttons2">Share Project </button>
           </div>

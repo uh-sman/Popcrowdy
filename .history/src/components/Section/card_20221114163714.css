@@ -20,7 +20,7 @@
   flex-direction: row;
   margin-left: 20px;
   gap: 25px;
-  /* border-bottom: 1px solid gray; */
+  border-bottom: 1px solid gray;
 }
 .subtext {
   font-size: 13px;
@@ -35,14 +35,6 @@
   /* border-top-left-radius: 12px;
   border-top-right-radius: 12px; */
   /* border-radius: 12px; */
-}
-.image-style {
-  height: 44.099998474121094px;
-  width: 44.099998474121094px;
-  left: 0.45001220703125px;
-  top: 0.45001220703125px;
-  border-radius: 0px;
-  color: #ff0000;
 }
 .date {
   font-size: 9px;
@@ -68,19 +60,4 @@
   left: 0px;
   top: 0px;
   border-radius: 47px;
-  background: #ffff;
-}
-.border {
-  padding-bottom: 11px;
-  border-bottom: 1px solid gray;
-}
-.seemore {
-  margin: 32.64px 50.19px;
-  color: red;
-}
-.button-class {
-  display: flex;
-  flex-direction: column;
-  gap: 8.75px;
-  margin-left: 51px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "./data";
-// import img from "../assets/Progressbar.png";
+import img from "../assets/Progressbar.png";
 import logo from "../assets/WhatsApp 1.png";
 import { BsPersonCircle } from "react-icons/bs";
 import { TfiArrowCircleRight } from "react-icons/tfi";
@@ -14,24 +14,24 @@ const Card = () => {
         </div>
         <div className="card-content">
           {data.map(
-            ({ title, id, amount, date, raise, subtext, goal, image }) => {
+            ({ title, id, amount, link, date, raise, subtext, goal }) => {
               return (
                 <div key={id}>
                   <div>
                     <div>
-                      <h2 style={{ marginLeft: "51px", marginTop: "20px" }}>
+                      <h2 style={{ marginLeft: "25px" }}>
                         {raise} <span className="subtext">{subtext}</span>
                       </h2>
-                      <img src={image} className="rectangle" />
+                      <img src={img} />
                     </div>
                   </div>
                   <div className="card-items">
                     <div>
-                      <BsPersonCircle className="image-style" />
+                      <img src={link} />
                     </div>
-                    <div className="">
+                    <div>
                       <h4>{title}</h4>
-                      <h3 className="border">
+                      <h3>
                         {amount} <span className="date">{date}</span>
                       </h3>
                     </div>
@@ -40,14 +40,6 @@ const Card = () => {
               );
             }
           )}
-          <p className="seemore">
-            <TfiArrowCircleRight />
-            <span style={{ marginLeft: "21.05px" }}>See More</span>
-          </p>
-          <div className="button-class">
-            <button className="card-buttons1">Invest Now </button>
-            <button className="card-buttons2">Share Project </button>
-          </div>
         </div>
       </div>
     </div>

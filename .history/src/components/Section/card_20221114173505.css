@@ -78,9 +78,3 @@
   margin: 32.64px 50.19px;
   color: red;
 }
-.button-class {
-  display: flex;
-  flex-direction: column;
-  gap: 8.75px;
-  margin-left: 51px;
-}

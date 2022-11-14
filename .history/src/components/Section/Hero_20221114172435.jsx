@@ -20,7 +20,7 @@ const Hero = () => {
         <div>
           <CarouselDemo />
         </div>
-        <div className="card">
+        <div>
           {" "}
           <Card />{" "}
         </div>

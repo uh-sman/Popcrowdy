@@ -81,6 +81,5 @@
 .button-class {
   display: flex;
   flex-direction: column;
-  gap: 8.75px;
-  margin-left: 51px;
+  gap: 24px;
 }

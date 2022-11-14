@@ -36,14 +36,6 @@
   border-top-right-radius: 12px; */
   /* border-radius: 12px; */
 }
-.image-style {
-  height: 44.099998474121094px;
-  width: 44.099998474121094px;
-  left: 0.45001220703125px;
-  top: 0.45001220703125px;
-  border-radius: 0px;
-  color: #ff0000;
-}
 .date {
   font-size: 9px;
   line-height: 11.19px;
@@ -61,6 +53,10 @@
   top: 0px;
   border-radius: 47px;
   background: #ff0000;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
 }
 .card-buttons2 {
   height: 43.249427795410156px;
@@ -68,7 +64,11 @@
   left: 0px;
   top: 0px;
   border-radius: 47px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
   background: #ffff;
+  align-items: center;
 }
 .border {
   padding-bottom: 11px;
@@ -76,11 +76,4 @@
 }
 .seemore {
   margin: 32.64px 50.19px;
-  color: red;
-}
-.button-class {
-  display: flex;
-  flex-direction: column;
-  gap: 8.75px;
-  margin-left: 51px;
 }

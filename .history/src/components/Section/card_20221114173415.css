@@ -68,7 +68,11 @@
   left: 0px;
   top: 0px;
   border-radius: 47px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
   background: #ffff;
+  align-items: center;
 }
 .border {
   padding-bottom: 11px;
@@ -77,10 +81,4 @@
 .seemore {
   margin: 32.64px 50.19px;
   color: red;
-}
-.button-class {
-  display: flex;
-  flex-direction: column;
-  gap: 8.75px;
-  margin-left: 51px;
 }

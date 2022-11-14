@@ -1,0 +1,14 @@
+.red {
+  background-color: red;
+  height: 75.9189224243164px;
+  width: 419px;
+  left: 963px;
+  top: 242px;
+  bordertopleftradius: 12px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}

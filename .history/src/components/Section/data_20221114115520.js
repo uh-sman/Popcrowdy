@@ -1,11 +1,9 @@
-import img from "../assets/Progressbar.png";
 export const data = [
   {
     raise: "1,132,550",
     id: "raise",
     subtext: "Raised",
     goal: "100,000,000",
-    image: img,
   },
 
   {

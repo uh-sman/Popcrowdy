@@ -14,7 +14,17 @@ const Card = () => {
         </div>
         <div className="card-content">
           {data.map(
-            ({ title, id, amount, date, raise, subtext, goal, image }) => {
+            ({
+              title,
+              id,
+              amount,
+              link,
+              date,
+              raise,
+              subtext,
+              goal,
+              image,
+            }) => {
               return (
                 <div key={id}>
                   <div>
@@ -27,11 +37,11 @@ const Card = () => {
                   </div>
                   <div className="card-items">
                     <div>
-                      <BsPersonCircle className="image-style" />
+                      <img src={link} />
                     </div>
-                    <div className="">
+                    <div className="border">
                       <h4>{title}</h4>
-                      <h3 className="border">
+                      <h3>
                         {amount} <span className="date">{date}</span>
                       </h3>
                     </div>
@@ -44,7 +54,7 @@ const Card = () => {
             <TfiArrowCircleRight />
             <span style={{ marginLeft: "21.05px" }}>See More</span>
           </p>
-          <div className="button-class">
+          <div>
             <button className="card-buttons1">Invest Now </button>
             <button className="card-buttons2">Share Project </button>
           </div>
