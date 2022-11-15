@@ -1,0 +1,23 @@
+.bars {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+.brown {
+  height: 37px;
+  width: 194px;
+  left: 737px;
+  top: 1457px;
+  border-radius: 0px;
+
+  background-color: #866a6a;
+}
+.gray {
+  height: 37px;
+  width: 542px;
+  left: 84px;
+  top: 1457px;
+  border-radius: 0px;
+  background-color: #d9d9d9;
+}

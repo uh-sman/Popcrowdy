@@ -1,0 +1,11 @@
+.shift {
+  background-color: red;
+  gap: 233px;
+  display: flex;
+  width: 1260px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

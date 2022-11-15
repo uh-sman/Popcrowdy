@@ -1,0 +1,90 @@
+.red {
+  background-color: red;
+  height: 75.9189224243164px;
+  width: 419px;
+  left: 963px;
+  top: 242px;
+  /* border-radius: 12px; */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.card-items {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  gap: 25px;
+  /* border-bottom: 1px solid gray; */
+}
+.subtext {
+  font-size: 13px;
+  line-height: 16.6px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: red;
+}
+.card-content {
+  /* background-color: rgb(167, 117, 117); */
+
+  /* border-top-left-radius: 12px;
+  border-top-right-radius: 12px; */
+  /* border-radius: 12px; */
+}
+.image-style {
+  height: 44.099998474121094px;
+  width: 44.099998474121094px;
+  left: 0.45001220703125px;
+  top: 0.45001220703125px;
+  border-radius: 0px;
+  color: #ff0000;
+}
+.date {
+  font-size: 9px;
+  line-height: 11.19px;
+  font-weight: 600;
+  margin-left: 111px;
+}
+.rectangle {
+  margin-top: 11px;
+  margin-left: 51px;
+}
+.card-buttons1 {
+  height: 43.249427795410156px;
+  width: 333.0001525878906px;
+  left: 0px;
+  top: 0px;
+  border-radius: 47px;
+  background: #ff0000;
+}
+.card-buttons2 {
+  height: 43.249427795410156px;
+  width: 333.0001525878906px;
+  left: 0px;
+  top: 0px;
+  border-radius: 47px;
+  background: #ffff;
+}
+.border {
+  padding-bottom: 11px;
+  border-bottom: 1px solid gray;
+}
+.seemore {
+  margin: 32.64px 50.19px;
+  color: red;
+}
+.button-class {
+  display: flex;
+  flex-direction: column;
+  gap: 8.75px;
+  margin-left: 51px;
+}
+.logo {
+  position: absolute;
+  left: 520px;
+}

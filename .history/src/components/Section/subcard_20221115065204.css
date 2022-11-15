@@ -1,0 +1,102 @@
+.button {
+  padding: 8px 25px;
+  background-color: red;
+  color: white;
+  border-radius: 47px;
+  border: none;
+}
+.texts {
+  margin-left: 21px;
+}
+.box {
+  /* margin-top: 61px; 
+  top:1400px;*/
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  /* margin-left: 25px; */
+}
+.box-gray {
+  /* margin-top: 61px; 
+  top:1400px;*/
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  /* margin-left: 25px; */
+}
+.box2 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  /* position: absolute; */
+  position: inherit;
+  width: 88px;
+  height: 99px;
+  margin-top: 40px;
+  padding-right: 20px;
+  /* left: 860px; */
+  /* top: 880px; */
+}
+.box3 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  /* position: absolute; */
+  position: inherit;
+  width: 88px;
+  height: 99px;
+  left: 370px;
+  top: 850px;
+}
+.box1 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  /* position: absolute; */
+  position: inherit;
+  width: 88px;
+  height: 99px;
+  /* left: 800px; */
+
+  top: 840px;
+}
+.box4 {
+  /* margin-left: -50px;
+  margin-top: 50px; */
+  /* position: absolute; */
+  position: inherit;
+  width: 88px;
+  height: 99px;
+  left: 400px;
+  top: 890px;
+}
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .subcard {
+    /* flex-direction: column; */
+  }
+  .box {
+    /* width: fit-content; */
+    position: absolute;
+  }
+  .box-gray {
+    position: inherit;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .group {
+    display: block;
+  }
+  .subcard {
+    /* display: block; */
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 960px) {
+}
+.subcard {
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-rows: 100px; */
+  /* grid-gap: 23px; */
+  gap: 23px;
+  margin-left: 75px;
+  margin-top: 37px;
+}

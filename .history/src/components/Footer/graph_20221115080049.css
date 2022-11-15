@@ -1,0 +1,31 @@
+.bars {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-columns: 1fr 2fr; */
+  display: flex;
+  margin-bottom: 19px;
+  align-items: center;
+  object-fit: contain;
+  /* grid-gap: 10px; */
+}
+.flex {
+  display: flex;
+}
+.brown {
+  height: 37px;
+  width: 194px;
+  left: 737px;
+  top: 1457px;
+  border-radius: 0px;
+  color: white;
+
+  background-color: #866a6a;
+}
+.gray {
+  height: 37px;
+  width: 542px;
+  left: 84px;
+  top: 1457px;
+  border-radius: 0px;
+  background-color: #d9d9d9;
+}

@@ -1,0 +1,8 @@
+.sub-container {
+  display: flex;
+  gap: 96px;
+}
+.container {
+  margin-left: 81px;
+  margin-top: 57px;
+}

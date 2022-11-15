@@ -1,0 +1,18 @@
+.sub-container {
+  display: flex;
+  gap: 96px;
+  margin-bottom: 50px;
+}
+.contain {
+  margin-left: 81px;
+  margin-top: 57px;
+  margin-bottom: 61px;
+}
+.red-text {
+  color: red;
+}
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .contain {
+    margin-left: 0px;
+  }
+}

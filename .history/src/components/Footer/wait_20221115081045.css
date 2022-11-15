@@ -1,0 +1,13 @@
+.sub-container {
+  display: flex;
+  gap: 96px;
+  margin-bottom: 50px;
+}
+.contain {
+  margin-left: 81px;
+  margin-top: 57px;
+  margin-bottom: 61px;
+}
+.text-red {
+  color: red;
+}

@@ -1,0 +1,12 @@
+.bars {
+  display: flex;
+}
+.brown {
+  height: 37px;
+  width: 194px;
+  left: 737px;
+  top: 1457px;
+  border-radius: 0px;
+
+  background-color: #866a6a;
+}

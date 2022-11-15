@@ -1,0 +1,11 @@
+.scrollContainer {
+  margin: 10px 75px;
+  display: flex;
+  overflow-x: auto;
+  /* gap: 200px; */
+  justify-content: space-between;
+  /* gap: 55px; */
+}
+/* .texts{
+  m
+} */
