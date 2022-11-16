@@ -1,0 +1,14 @@
+.image {
+  width: 1513px;
+}
+.containe {
+  background-color: black;
+
+  margin-top: -5px;
+  color: #fff;
+}
+.gbemi-trabaye {
+  gap: 30px;
+  margin: 0px 20px;
+  display: flex;
+}

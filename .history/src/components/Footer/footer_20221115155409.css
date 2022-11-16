@@ -1,0 +1,46 @@
+.image {
+  width: 1519px;
+}
+.containe {
+  background-color: black;
+
+  margin-top: -5px;
+  color: #fff;
+}
+.gbemi-trabaye {
+  gap: 70px;
+  margin: 0px 50px;
+
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+}
+.prop {
+  color: red;
+  font-size: 30px;
+}
+.social-links {
+  color: white;
+}
+.social-links1 {
+  color: white;
+  font-size: 25px;
+}
+.social-links2 {
+  color: white;
+  font-size: 25px;
+}
+.social-links3 {
+  color: white;
+  font-size: 25px;
+}
+.social-links4 {
+  color: white;
+  font-size: 25px;
+}
+.social-link {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

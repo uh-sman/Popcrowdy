@@ -1,0 +1,16 @@
+.image {
+  width: 1513px;
+}
+.containe {
+  background-color: black;
+
+  margin-top: -5px;
+  color: #fff;
+}
+.gbemi-trabaye {
+  gap: 70px;
+  margin: 0px 30px;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
