@@ -1,11 +1,9 @@
 .scrollContainer {
   margin: 120px 75px;
-  /* display: flex; */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
   overflow-x: auto;
   /* gap: 200px; */
-  /* justify-content: space-between; */
+  justify-content: space-between;
   border-bottom: 1px solid red;
   /* gap: 55px; */
 }
@@ -19,7 +17,7 @@
 }
 @media only screen and (min-width: 200px) and (max-width: 950px) {
   .scrollContainer {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
   }
 }
 /* .content,

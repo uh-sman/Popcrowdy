@@ -111,19 +111,19 @@
   display: flex;
   gap: 15px;
 }
-@media only screen and (min-width: 600px) and (max-width: 950px) {
+@media only screen and (min-width: 500px) and (max-width: 950px) {
   .card-container {
     margin: 0px;
   }
   .logo {
-    left: 420px;
+    left: 380px;
   }
   .card-container {
     margin: 0px;
     width: 400px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .card-container {
     margin: 0px;
   }

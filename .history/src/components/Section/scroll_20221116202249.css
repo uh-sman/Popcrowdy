@@ -19,7 +19,7 @@
 }
 @media only screen and (min-width: 200px) and (max-width: 950px) {
   .scrollContainer {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
   }
 }
 /* .content,

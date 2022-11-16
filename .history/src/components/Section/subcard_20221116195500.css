@@ -9,8 +9,6 @@
 .subcard {
   /* display: flex;
   flex-direction: row; */
-
-  margin: 0px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -53,7 +51,7 @@
   /* position: inherit; */
   width: 120px;
   height: 99px;
-  left: 799px;
+  left: 840px;
 
   top: 857px;
 }
@@ -63,7 +61,6 @@
 @media only screen and (max-width: 1500px) {
   .subcard {
     grid-template-columns: 1fr 1fr 1fr;
-    /* flex-wrap: wrap; */
   }
   .box1 {
     display: none;
@@ -72,12 +69,7 @@
     display: none;
   }
 }
-@media only screen and (min-width: 200px) and (max-width: 1300px) {
-  .subcard {
-    margin: auto;
-    grid-template-columns: auto;
-    gap: 10px;
-  }
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
   .box1 {
     display: none;
   }
@@ -85,12 +77,9 @@
     display: none;
   }
 }
-
 /* .box1 {
     left: 1230px;
   }
   .box2 {
     left: 200px;
   } */
-.subcard-container {
-}

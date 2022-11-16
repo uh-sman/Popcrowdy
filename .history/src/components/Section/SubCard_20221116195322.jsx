@@ -29,7 +29,6 @@ const SubCard = () => {
           </div>
         </div>
         <div
-          className="cards"
           style={{
             backgroundColor: "#DEE1E2",
             borderRadius: "15px",
