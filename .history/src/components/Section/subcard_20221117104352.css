@@ -74,10 +74,9 @@
 }
 @media only screen and (min-width: 900px) and (max-width: 1300px) {
   .subcard {
-    /* margin-top: 10px; */
-    margin: 0px 10px;
-    /* place-items: center; */
-    grid-template-columns: 0.5fr 0.5fr;
+    margin: 9px;
+    place-items: center;
+    grid-template-columns: 1fr 0.5fr;
     gap: 10px;
   }
   .box1 {
@@ -89,14 +88,10 @@
 }
 @media only screen and (min-width: 200px) and (max-width: 900px) {
   .subcard {
-    /* margin-top: 10px; */
-    margin: 10px 10px;
+    margin-top: 10px;
     place-items: center;
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-  .group-image {
-    width: 400px;
   }
   .box1 {
     display: none;

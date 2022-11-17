@@ -90,13 +90,13 @@
 @media only screen and (min-width: 200px) and (max-width: 900px) {
   .subcard {
     /* margin-top: 10px; */
-    margin: 10px 10px;
-    place-items: center;
+    margin: 0px 10px;
+    /* place-items: center; */
     grid-template-columns: 1fr;
     gap: 10px;
   }
   .group-image {
-    width: 400px;
+    width: 300px;
   }
   .box1 {
     display: none;

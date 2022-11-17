@@ -16,7 +16,6 @@
     margin-left: 0px;
   }
   .sub-container {
-    justify-content: center;
-    /* text-align: center; */
+    text-align: center;
   }
 }

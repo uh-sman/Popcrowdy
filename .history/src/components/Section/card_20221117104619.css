@@ -94,7 +94,6 @@
 .logo {
   position: absolute;
   /* left: 480px; */
-  padding: 0px 260px;
 }
 .btns {
   height: 26px;
@@ -116,7 +115,9 @@
   .card-container {
     margin: 0px;
   }
-
+  .logo {
+    left: 420px;
+  }
   .card-container {
     margin: 0px;
     width: 400px;
@@ -125,5 +126,8 @@
 @media only screen and (max-width: 500px) {
   .card-container {
     margin: 0px;
+  }
+  .logo {
+    left: 360px;
   }
 }

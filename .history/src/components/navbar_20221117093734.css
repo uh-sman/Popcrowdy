@@ -19,18 +19,9 @@
     flex-direction: column;
     display: none;
   }
-  .container {
-    display: block;
-  }
-  .burger-menu {
-    display: block;
-  }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 960px) and (max-width: 1650px) {
   .container {
-    display: none;
-  }
-  .burger-menu {
     display: none;
   }
 }
@@ -81,3 +72,4 @@
 .container {
   display: none;
 }
+/* burger-menu */
