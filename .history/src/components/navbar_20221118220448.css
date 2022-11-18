@@ -36,7 +36,7 @@
 }
 .sidebar {
   background: gray;
-  position: fixed;
+  position: absolute;
   top: 0px;
   bottom: 0;
   line-height: 70px;
